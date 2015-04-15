@@ -1,3 +1,5 @@
+exit 1
+
 git stash -q --keep-index
 grunt test
 RESULT=$?
